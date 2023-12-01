@@ -5,7 +5,17 @@ lines = []
 for input_line in input_lines:
     lines.append(str(input_line))
 
-string_numbers = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
+string_numbers_dict = {
+    'one': '1',
+    'two': '2',
+    'three': '3',
+    'four': '4',
+    'five': '5',
+    'six': '6',
+    'seven': '7',
+    'eight': '8', 
+    'nine': '9'
+}
 sum = 0
 for line in lines:
     number_found = False
